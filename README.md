@@ -8,13 +8,20 @@
 
 3. Animation Technique Details
 
-   2.1  Animation Driver 
+   2.1  Animation Driver
+   
    Time-based (using frameCount % 120 === 0 to add one ghost every 2 seconds)
+   
    2.2  Animated Image Properties
+   
    Ghosts are drawn using a custom SVG-to-p5.js converted path
+   
    Position (x, y) changes over time
+   
    Movement speed controlled via object values (speedX, speedY)
+   
    scale() controls character size
+   
    2.3  Why it’s unique
    My animation is driven by time, continuously adding characters and simulating movement to create a more vivid and interconnected narrative between the two figures.
    While the other three team members used Perlin noise and randomness, audio, or user input, my animation uniquely changes the number of elements dynamically.
